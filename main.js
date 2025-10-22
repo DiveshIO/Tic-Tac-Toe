@@ -18,7 +18,7 @@ function printBoard() {
 
 function handleMove(position) {
   if (gameBoard[position] == " ") {
-    gameBoard[position] = currentPlayer;ß
+    gameBoard[position] = currentPlayer;
   } else {
     console.log("Position already taken. Try again.");
     return false;
